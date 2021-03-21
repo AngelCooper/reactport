@@ -1,5 +1,11 @@
 import React from "react";
 import './about.css';
+import Weather from '../../assets/weather.png';
+import Beer from '../../assets/beerme.png';
+import Movie from '../../assets/movie.png';
+import Note from '../../assets/notetaker.png';
+import Pass from '../../assets/passwordgen.png';
+import schedule from '../../assets/schedule.png';
 
 const Blog = () => (
   <div class="container">
@@ -16,7 +22,8 @@ const Blog = () => (
         <div class="col-md-6">
 
           <div class="card">
-            <div class="card-body">
+            <img src={Weather}></img>
+            <div class="card-body">  
               <h5 class="card-title">Weather API</h5>
               <p class="card-text"> weather API application that will bring up a five day forecast on the city search.</p>
               <a href="https://github.com/AngelCooper/weatherApi" class="btn btn-primary"> Go to Github</a>
@@ -27,6 +34,7 @@ const Blog = () => (
         <div class="col-md-6">
 
           <div class="card">
+            <img src={schedule}></img>
             <div class="card-body">
               <h5 class="card-title">Daily schedule Application</h5>
               <p class="card-text"> An application to set a daily schedule with time blocks</p>
@@ -48,6 +56,7 @@ const Blog = () => (
         <div class="col-md-6">
 
           <div class="card">
+            <img src={Pass}></img>
             <div class="card-body">
               <h5 class="card-title">Random Password Generator</h5>
               <p class="card-text">An application that will produce a random password. Up to 128 characters, include upper
@@ -60,6 +69,7 @@ const Blog = () => (
         <div class="col-md-6">
 
           <div class="card">
+            <img src={Note}></img>
             <div class="card-body">
               <h5 class="card-title">Note Taker Application</h5>
               <p class="card-text">An application that is good for taking notes.</p>
@@ -81,6 +91,7 @@ const Blog = () => (
         <div class="col-md-6">
 
           <div class="card">
+            <img src={Beer}></img>
             <div class="card-body">
               <h5 class="card-title">Locate nearst Brewery</h5>
               <p class="card-text">An application that will ask for your location, then it will bring up the nearest
@@ -93,6 +104,7 @@ const Blog = () => (
         <div class="col-md-6">
 
           <div class="card">
+            <img src={Movie}></img>
             <div class="card-body">
               <h5 class="card-title">Movie Seach API</h5>
               <p class="card-text">An appilcation to search for movies or television shows, to be able to rate them and
