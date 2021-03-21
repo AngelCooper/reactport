@@ -1,19 +1,44 @@
 import React from "react";
 
 const Contact = () => (
-  <div>
-    <h1>Contact Page</h1>
-    <p>
-      Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis molestie urna.
-      Aliquam semper ultrices varius. Aliquam faucibus sit amet magna a ultrices. Aenean
-      pellentesque placerat lacus imperdiet efficitur. In felis nisl, luctus non ante euismod,
-      tincidunt bibendum mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-      posuere, eget tristique dui dapibus. Maecenas fermentum elementum faucibus. Quisque nec metus
-      vestibulum, egestas massa eu, sollicitudin ipsum. Nulla facilisi. Sed ut erat ligula. Nam
-      tincidunt nunc in nibh dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
-      conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at rhoncus. Etiam vel
-      condimentum magna, quis tempor nulla.
-    </p>
+  <div class="container">
+
+    <div class="jumbotron">
+      <h1>Contact</h1>
+      <h3>If you wish to conact me, please fill out the forms below</h3>
+
+
+    </div>
+
+    <div class="row">
+
+      <div class="col-md-6">
+
+        <div class="md-3">
+
+        <label for="exampleFormControlInput1" class="form-label">
+        Name
+        </label>
+        <input ype="name" class="form-control" id="exampleFormControlInput1" placeholder="Name"></input>
+        </div>
+
+        <div class="md-3">
+
+        <label for="exampleFormControlInput1" class="form-label">
+        Email Address
+        </label>
+        <input ype="name" class="form-control" id="exampleFormControlInput1" placeholder="Name"></input>
+        </div>
+
+        <div class="md-3">
+
+        <label for="exampleFormControlInput1" class="form-label">
+        Message
+        </label>
+        <input ype="name" class="form-control" id="exampleFormControlInput1" placeholder="Name"></input>
+        </div>
+      </div>
+    </div>
   </div>
 );
 
