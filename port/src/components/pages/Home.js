@@ -4,14 +4,7 @@ const Home = () => (
   <div>
     <h1>Home Page</h1>
     <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque velit, lobortis ut magna
-      varius, blandit rhoncus sem. Morbi lacinia nisi ac dui fermentum, sed luctus urna tincidunt.
-      Etiam ut feugiat ex. Cras non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna
-      imperdiet ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras rutrum ligula
-      in tincidunt commodo. Morbi sit amet mollis orci, in tristique ex. Donec nec ornare elit.
-      Donec blandit est sed risus feugiat porttitor. Vestibulum molestie hendrerit massa non
-      consequat. Vestibulum vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
-      fames ac ante ipsum primis in faucibus.
+    Welcome to Angel Cooper's React Portfolio. Here you will be able learn a few things such as things about about me, which will be under the "About" tab above. You'll be to see some of the projects that I have made and/or taken part in designing, under the "Portfolio" tab. Finally if you wish to get in contact with me, you can do so under the "Contact" tab. 
     </p>
   </div>
 );
